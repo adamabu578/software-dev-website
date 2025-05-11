@@ -21,7 +21,9 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
         <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>
           <Link href="/" className="flex items-center">
-            <span className="text-xl font-bold text-blue-600">Aeroverse webdev</span>
+            {/* <span className="text-xl font-bold text-blue-600">Aeroverse webdev</span> */}
+             <img src={"/assets/aeroverse-logo.png"} alt="Logo" className="h-10 w-15" />
+              <span>Aeroverse DEV</span>
           </Link>
         </motion.div>
 

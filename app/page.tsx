@@ -30,10 +30,10 @@ export default function Home() {
             </FadeIn>
             <FadeIn delay={0.4}>
               <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-                <Button asChild size="lg" className="bg-blue-500 hover:bg-blue-600">
+                <Button asChild size="lg" className="bg-blue-500 hover:bg-blue-600 cursor-pointer">
                   <Link href="/contact">Get Started</Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+                <Button  size="lg" className="border-white text-blue hover:bg-white/10 cursor-pointer">
                   <Link href="/services">Our Services</Link>
                 </Button>
               </div>
@@ -171,8 +171,10 @@ export default function Home() {
             </div>
           </ScrollFade>
 
+
+
           <ScrollFade delay={0.2}>
-            <MultiItemSlider itemsPerView={3} className="mb-12 h-[400px]" autoSlideInterval={6000}>
+            <MultiItemSlider itemsPerView={3} className="mb-12 h-[400px] border-b-indigo-700" autoSlideInterval={6000}>
               <ProjectCard
                 title="Tech Gadgets-platform"
                 category="Modern, responsive ecommerce web application designed for discovering, comparing, and purchasing the latest technology gadgets—including smartphones, smartwatches, laptops, audio devices, accessories, and more."
@@ -214,7 +216,10 @@ export default function Home() {
             </div>
           </ScrollFade>
         </div>
-      </section>
+      </section> 
+ 
+
+
 
       {/* Testimonials Section */}
       <section className="py-20">
@@ -312,8 +317,8 @@ type ProjectCardProps = {
 
 function ProjectCard({ title, category, imageUrl }: ProjectCardProps) {
   return (
-    <div className="group h-full overflow-hidden rounded-lg bg-white shadow-sm transition-all hover:shadow-md">
-      <div className="relative h-48 w-full overflow-hidden">
+    <div className="group h-full overflow-hidden rounded-lg bg-white shadow-2xl transition-all hover:shadow-md">
+      <div className="relative h-48 w-full overflow-hidden ">
         <img
           src={imageUrl || "/placeholder.svg"}
           alt={title}

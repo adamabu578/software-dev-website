@@ -7,8 +7,10 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <h3 className="mb-4 text-xl font-bold">Aeroverse-webdev</h3>
-            <p className="mb-4 text-slate-300">
+            {/* <h3 className="mb-4 text-xl font-bold">Aeroverse-webdev</h3> */}
+             <img src={"/assets/aeroverse-logo.png"} alt="Logo" className="h-10 w-15" />
+             
+            <p className="mb-6 text-slate-300">
               Transforming ideas into digital reality with cutting-edge software development services.
             </p>
             <div className="flex space-x-4">
