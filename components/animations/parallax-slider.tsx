@@ -16,7 +16,7 @@ export function ParallaxSlider({
   images,
   titles = [],
   autoSlide = true,
-  autoSlideInterval = 5000,
+  autoSlideInterval = 2000,
   className = "",
 }: ParallaxSliderProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
