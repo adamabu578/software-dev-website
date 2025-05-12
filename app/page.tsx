@@ -208,7 +208,7 @@ export default function Home() {
             </MultiItemSlider>
           </ScrollFade>
 
-          <ScrollFade delay={0.3}>
+          <ScrollFade >
             <div className="text-center">
               <Button asChild size="lg" variant="outline">
                 <Link href="/projects">View All Projects</Link>
