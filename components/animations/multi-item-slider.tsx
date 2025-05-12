@@ -20,7 +20,7 @@ export function MultiItemSlider({
   itemsPerView = 3,
   gap = 16,
   autoSlide = true,
-  autoSlideInterval = 5000,
+  autoSlideInterval = 2000,
   showArrows = true,
   showDots = true,
   className = "",

@@ -237,25 +237,25 @@ export default function Home() {
             <Slider className="mx-auto h-[300px] max-w-3xl">
               <TestimonialCard
                 quote="Their team delivered our project on time and exceeded our expectations. The attention to detail and commitment to quality was impressive. Highly recommended!"
-                author="Sarah Johnson"
+                author="emmanuel"
                 company="TechCorp CEO"
                 imageUrl="/placeholder.svg?height=100&width=100"
               />
               <TestimonialCard
                 quote="The software solution they built has transformed our business operations and increased efficiency by 40%. Their technical expertise and understanding of our business needs made all the difference."
-                author="Michael Chen"
+                author="michael"
                 company="Innovate Solutions"
                 imageUrl="/placeholder.svg?height=100&width=100"
               />
               <TestimonialCard
                 quote="Professional, responsive, and incredibly skilled. They're now our go-to development partner for all our digital projects. Working with them has been a game-changer for our company."
-                author="Emily Rodriguez"
+                author="stanley"
                 company="StartUp Ventures"
                 imageUrl="/placeholder.svg?height=100&width=100"
               />
               <TestimonialCard
                 quote="We approached them with a complex problem, and they delivered a solution that was both elegant and effective. Their ability to translate our vision into reality was remarkable."
-                author="David Wilson"
+                author="ibrahim"
                 company="Global Enterprises"
                 imageUrl="/placeholder.svg?height=100&width=100"
               />
