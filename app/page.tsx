@@ -173,8 +173,8 @@ export default function Home() {
 
 
 
-          <ScrollFade delay={0.2}>
-            <MultiItemSlider itemsPerView={3} className="mb-12 h-[400px] border-b-indigo-700" autoSlideInterval={6000}>
+          <ScrollFade >
+            <MultiItemSlider itemsPerView={3} className="mb-12 h-[400px] border-b-indigo-700" >
               <ProjectCard
                 title="Tech Gadgets-platform"
                 category="Modern, responsive ecommerce web application designed for discovering, comparing, and purchasing the latest technology gadgets—including smartphones, smartwatches, laptops, audio devices, accessories, and more."
